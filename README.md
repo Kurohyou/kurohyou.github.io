@@ -24,7 +24,7 @@ An updated version of my portfolio using react, scss, and with much snazzier sty
 <a href="https://github.com/Kurohyou/kurohyou.github.io"><strong>Explore the docs »</strong></a>
 
 
-<a href="https://kurohyou.github.io">View Demo</a> · <a href="https://github.com/Kurohyou/kurohyou.github.io/issues">Report Bug</a> · <a href="https://github.com/Kurohyou/kurohyou.github.io/issues">Request Feature</a>
+<a href="https://kurohyou.github.io">View Site</a> · <a href="https://github.com/Kurohyou/kurohyou.github.io/issues">Report Bug</a> · <a href="https://github.com/Kurohyou/kurohyou.github.io/issues">Request Feature</a>
 </p>
 </div>
 <!-- TABLE OF CONTENTS -->
