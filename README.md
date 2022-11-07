@@ -13,7 +13,7 @@
 <br />
 <div align="center">
 <a href="https://github.com/Kurohyou/kurohyou.github.io">
-<img src="assets/images/.&#x2F;assets&#x2F;images&#x2F;favicon.png" alt="Logo" width="80" height="80">
+<img src="assets/images/favicon.png" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">Portfolio v2</h3>
 <p align="center">
@@ -24,7 +24,7 @@ An updated version of my portfolio using react, scss, and with much snazzier sty
 <a href="https://github.com/Kurohyou/kurohyou.github.io"><strong>Explore the docs »</strong></a>
 
 
-<a href="https://github.com/Kurohyou/kurohyou.github.io">View Demo</a> · <a href="https://github.com/Kurohyou/kurohyou.github.io/issues">Report Bug</a> · <a href="https://github.com/Kurohyou/kurohyou.github.io/issues">Request Feature</a>
+<a href="https://kurohyou.github.io">View Demo</a> · <a href="https://github.com/Kurohyou/kurohyou.github.io/issues">Report Bug</a> · <a href="https://github.com/Kurohyou/kurohyou.github.io/issues">Request Feature</a>
 </p>
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -37,12 +37,6 @@ An updated version of my portfolio using react, scss, and with much snazzier sty
 <li><a href="#built-with">Built With</a></li>
 </ul>
 </li>
-<li>
-<a href="#getting-started">Getting Started</a>
-<ul>
-</ul>
-</li>
-<li><a href="#contributing">Contributing</a></li>
 <li><a href="#contact">Contact</a></li>
 <li><a href="#acknowledgments">Acknowledgments</a></li>
 </ol>
@@ -51,18 +45,12 @@ An updated version of my portfolio using react, scss, and with much snazzier sty
 
 ## About The Project
 ![Product Name Screen Shot][product-screenshot]
-TODO
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 - JS
 - React
 - SCSS
-<p align="right">(<a href="#top">back to top</a>)</p>
-<!-- GETTING STARTED -->
-
-## Getting Started
-TODO
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- CONTACT -->
 
