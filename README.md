@@ -85,4 +85,4 @@ This readme template adapted from the [Best-README-Template](https://github.com/
 [linkedin-url]: https://linkedin.com/in/scott-casey-20210398
 [patreon-shield]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dkurohyoustudios%26type%3Dpatrons&style=flat
 [patreon-url]: https://patreon.com/kurohyoustudios
-[product-screenshot]: assets/images/screenshot.png
+[product-screenshot]: public/assets/images/screenshot.png
