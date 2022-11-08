@@ -1,0 +1,96 @@
+form{
+  --h-notchSize: var(--v-notchSize);
+  --octagonScale: 0.5;
+  display:grid;
+  gap:var(--gap);
+  padding:var(--borderWidth);
+  max-width:800px;
+  margin-inline:auto;
+  .btn{
+    --v-notchSize:var(--half-gap);
+    height:35px;
+    border:0;
+    font-size:1rem;
+    padding: calc( var(--v-notchSize) * var(--octagonScale) ) calc( var(--h-notchSize) * var(--octagonScale) );
+    justify-self: end;
+    min-width:6rem;
+    color:var(--normal-color);
+    background-color:var(--back-color-1);
+    transition: 500ms background-color;
+    font-family:var(--headerFont);
+    &:not([disabled]){
+      &:is(:hover,:focus){
+        background-color:var(--link-color);
+        &:is(:active){
+          background-color:var(--back-color-2);
+        }
+      }
+    }
+  }
+  :is(label,button){
+    text-transform:capitalize;
+  }
+}
+.form-control{
+  display:flex;
+  > *{
+    font-size:16px;
+  }
+  &:not(.form-control-stacked){
+    > *{
+      padding-block:calc( var(--v-notchSize) * var(--octagonScale) );
+    }
+    :first-child{
+      padding: {
+        left: var(--h-notchSize);
+        right: var(--gap);
+      };
+    }
+    :last-child{
+      padding: {
+        right: var(--h-notchSize);
+        left: var(--gap);
+      };
+    }
+  }
+  > .select{
+    text-transform: capitalize;
+  }
+  > :is(.input,.select){
+    background-color: var(--back-color-1);
+    flex:1 1 0;
+    border:0;
+    color:var(--normal-color);
+    font-family:var(--contentFont);
+  }
+  > .label{
+    background-color: var(--link-color);
+    min-width: 6rem;
+    text-align:center;
+    font-family:var(--headerFont);
+  }
+}
+
+.form-control--stacked {
+  flex-direction:column;
+  > .input--textarea{
+    min-height:calc( 5rem + calc( var(--v-notchSize) * var(--octagonScale) ) + var(--half-gap));
+    overflow:hidden;
+    flex:0 0 auto;
+  }
+  > * {
+    padding-inline:calc( var(--h-notchSize) * var(--octagonScale) );
+  }
+  :first-child {
+    padding: {
+      top: calc( var(--v-notchSize) * var(--octagonScale) );
+      bottom: var(--half-gap);
+    };
+  }
+  :last-child {
+    padding: {
+      bottom: calc( var(--v-notchSize) * var(--octagonScale) );
+      top: var(--half-gap);
+    };
+  }
+}
