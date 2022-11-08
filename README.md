@@ -13,7 +13,7 @@
 <br />
 <div align="center">
 <a href="https://github.com/Kurohyou/kurohyou.github.io">
-<img src="assets/images/favicon.png" alt="Logo" width="80" height="80">
+<img src="public/assets/images/favicon.png" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">Portfolio v2</h3>
 <p align="center">
