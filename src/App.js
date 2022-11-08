@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 import { Footer, Header } from './components';
 import { gapiInit,gapi } from './utils';
-// extraneous comment to trigger rebuild by github actions
+
 import './App.scss';
 
 function App() {
